@@ -25,7 +25,7 @@
                 <div class="">
                     <ul class="navbar-nav fw-bold">
                     @auth
-                        <a href="{{ url('/dashboard') }}" class="">Accueil</a>
+                        <a href="{{ url('/home') }}" class="">Accueil</a>
                     @else
                         <li class="nav-item">
                             <a href="{{ route('login') }}" class="nav-link me-4" style="color: #F76300">Se Connecter</a>
